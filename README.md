@@ -35,3 +35,6 @@ The file `src/LoadAGU.py` demonstrates how to load the dataset into python using
 If using python your 'default' library is probably `matplotlib`. Other libraries such as `seaborn` and `bokeh` may also be of interest to you. The `cartopy` library could also be useful if you're plotting maps etc.
 
 If you'd rather use something with more of a GUI, you should be able to open the CSV datasets in Excel. If you haven't come across it before, Tableau is another fun piece of software often used in data science. It's available for free to students, although you'll probably want to install it before the seminar!
+
+## Acknowledgements
+Many thanks to Milan Kloewer for allowing us to use the AGU dataset from his https://github.com/milankl/CarbonFootprintAGU repository.
