@@ -2,20 +2,20 @@
 The repository contains datasets for use in the PCS seminar series' data visualisation hackathon, along with some example code.
 
 ## Getting started
-Two different datasets are provided for the hackathon, both of which can be found in the `data` directory. The first contains some data on the carbon footprint of EGU and the second is a collection of meteorological observations collected at the University of Reading. Example scripts of how to load the data are stored in the `src` directory.
+Two different datasets are provided for the hackathon, both of which can be found in the `data` directory. The first contains some data on the carbon footprint of AGU and the second is a collection of meteorological observations collected at the University of Reading. Example scripts of how to load the data are stored in the `src` directory.
 
 A description of each dataset and some questions you may wish to explore are detailed below. You are, of course, welcome to take your analysis in any direction you wish.
 
-## The EGU dataset
-The dataset `data/ProcessedEGU.csv` was compiled by Milan Kloewer as part of an investigation into the Carbon footprint of the European Geophysical Union's annual meeting in Vienna. I'd encourage you to come into the hackathon blind to his findings, however, if you later want to compare the conclusions you come to with Milan's you can find his analysis at https://github.com/milankl/CarbonFootprintEGU.
+## The AGU dataset
+The dataset `data/ProcessedAGU.csv` was compiled by Milan Kloewer as part of an investigation into the Carbon footprint of the American Geophysical Union's annual meeting in Vienna. I'd encourage you to come into the hackathon blind to his findings, however, if you later want to compare the conclusions you come to with Milan's you can find his analysis at https://github.com/milankl/CarbonFootprintAGU.
 
 ### The challenge
 To get started we have provided a few initial questions below. It's up to you to then make an interesting (and hopegully beautiful!) plot over the next 45 minutes. 
 
-1. Where are EGU attendees coming from?
+1. Where are AGU attendees coming from?
 2. Which nations/cities are responsible for the most emissions?
-3. What would it take for EGU to become carbon neutral?
-4. If EGU has a 'fixed' carbon budget, how many more 'overseas' visitors could be accomodated if Europe arrrived by rail?
+3. What would it take for AGU to become carbon neutral?
+4. If AGU has a 'fixed' carbon budget, how many more 'overseas' visitors could be accomodated if Europe arrrived by rail?
 
 ### Dataset description
 The dataset is a CSV with each row corresponding to data from some city. The columns are as follows:
@@ -34,7 +34,7 @@ The dataset is a CSV with each row corresponding to data from some city. The col
 12. A realistic estimate of the total CO_2 emitted by attendees from that country (only one entry per country!)
 13. An estimate of the total CO_2 emitted by attendees from that country if all attendees arrived via rail (only one entry per country!)
 
-The file `src/LoadEGU.py` demonstrates how to load the dataset into python using pandas and xarray.
+The file `src/LoadAGU.py` demonstrates how to load the dataset into python using pandas and xarray.
 
 ## The Reading dataset
 
