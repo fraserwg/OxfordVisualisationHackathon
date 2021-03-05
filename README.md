@@ -7,7 +7,7 @@ Two different datasets are provided for the hackathon, both of which can be foun
 A description of each dataset and some questions you may wish to explore are detailed below. You are, of course, welcome to take your analysis in any direction you wish.
 
 ## The AGU dataset
-The dataset `data/ProcessedAGU.csv` was compiled by Milan Kloewer as part of an investigation into the Carbon footprint of the American Geophysical Union's annual meeting in Vienna. I'd encourage you to come into the hackathon blind to his findings, however, if you later want to compare the conclusions you come to with Milan's you can find his analysis at https://github.com/milankl/CarbonFootprintAGU.
+The dataset `data/ProcessedAGU.csv` was compiled by Milan Kloewer as part of an investigation into the Carbon footprint of the American Geophysical Union's annual meeting in San Francisco. I'd encourage you to come into the hackathon blind to his findings, however, if you later want to compare the conclusions you come to with Milan's you can find his analysis at https://github.com/milankl/CarbonFootprintAGU.
 
 ### The challenge
 To get started we have provided a few initial questions below. It's up to you to then make an interesting (and hopegully beautiful!) plot over the next 45 minutes. 
@@ -20,19 +20,13 @@ To get started we have provided a few initial questions below. It's up to you to
 ### Dataset description
 The dataset is a CSV with each row corresponding to data from some city. The columns are as follows:
 
-1. City.
-2. Country.
-3. Number of attendees from this city.
-4. Fraction - number of attendees from this city / total number of attendees from this country.
-5. Longitude (x coordinate).
-6. Latitude (y coordinate).
-7. Distance to Vienna (location of EGU).
-8. Total distance travelled by all the attendees from that city in a one way trip (i.e. item 3. $\times$ item 7.)
-9. Total distance travelled in the return trip (i.e. item 8. $\times$ 2).
-10. A realistic estimate CO_2 equivalent emssions, in tonnes, from attendees visiting Vienna.
-11. An estimate of CO_2 equivalent emissions, in tonnes, if all attendees arrived via rail.
-12. A realistic estimate of the total CO_2 emitted by attendees from that country (only one entry per country!)
-13. An estimate of the total CO_2 emitted by attendees from that country if all attendees arrived via rail (only one entry per country!)
+1. Number of attendees from this city
+2. Country
+3. State (for Australia, Brazil, Canada and USA)
+4. City
+5. Latitude
+6. Longitude
+7. Distance to San Fransisco
 
 The file `src/LoadAGU.py` demonstrates how to load the dataset into python using pandas and xarray.
 
