@@ -15,7 +15,6 @@ To get started we have provided a few initial questions below. It's up to you to
 1. Where are AGU attendees coming from?
 2. Which nations/cities are responsible for the most emissions?
 3. What would it take for AGU to become carbon neutral?
-4. If AGU has a 'fixed' carbon budget, how many more 'overseas' visitors could be accomodated if Europe arrrived by rail?
 
 ### Dataset description
 The dataset is a CSV with each row corresponding to data from some city. The columns are as follows:
