@@ -27,7 +27,7 @@ The dataset is a CSV with each row corresponding to data from some city. The col
 6. Longitude
 7. Distance to San Fransisco
 
-The file `src/LoadAGU.py` demonstrates how to load the dataset into python using pandas and xarray.
+The file `src/LoadAGU.py` demonstrates how to load the dataset into python using `pandas` and the inbuilt `csv` module.
 
 ## The Reading dataset
 
