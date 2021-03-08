@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import pandas as pd
+import csv
 
 data_path = '../data/reading_data.csv'
 
@@ -18,4 +19,4 @@ data_set_columns = list(zip(*data_set))  # List where each element corresponds t
 
 year = data_set_columns[0]
 day = data_set_columns[2]
-month = dat_set_columns[1]
+month = data_set_columns[1]
