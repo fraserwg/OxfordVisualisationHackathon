@@ -14,4 +14,8 @@ with open('../data/reading_data.csv') as file:
     for line in csv_file:
         data_set.append(line)
 
-N, country, state, city, lon, lat, distance = list(zip(*data_set))
+data_set_columns = list(zip(*data_set))  # List where each element corresponds to a data column
+
+year = data_set_columns[0]
+day = data_set_columns[2]
+month = dat_set_columns[1]
