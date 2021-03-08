@@ -19,13 +19,13 @@ To get started we have provided a few initial questions below. It's up to you to
 ### Dataset description
 The dataset is a CSV with each row corresponding to data from some city. The columns are as follows:
 
-1. Number of attendees from this city
-2. Country
-3. State (for Australia, Brazil, Canada and USA)
-4. City
-5. Latitude
-6. Longitude
-7. Distance to San Fransisco
+0. Number of attendees from this city
+1. Country
+2. State (for Australia, Brazil, Canada and USA)
+3. City
+4. Latitude
+5. Longitude
+6. Distance to San Fransisco
 
 The file `src/LoadAGU.py` demonstrates how to load the dataset into python using `pandas` and the inbuilt `csv` module.
 
@@ -42,37 +42,37 @@ As above, we have provided a few questions below to get you started, but please 
 ### Dataset description
 The Reading dataset is a CSV file. The top row gives the column description, then each subsequent row represents a day, starting from 01 Jan 1970 until 01 March 2021. The columns are as follows:
 
-1. Year
-2. Month
-3. Day
-4. Day of the week
-5. Barometer temperature (degC)
-6. Weather station pressure (mb)
-7. Mean sea level pressure (mb)
-8. Dry bulb temperature (degC at 9am)
-9. Wet bulb temperature (degC at 9am)
-10. Dew point temperature (degC at 9am)
-11. Relative humidity (% at 9am)
-12. Maximum temperature (degC)
-13. Minimun temperature (degC)
-14. Soil minimum temperature (degC)
-15. Daily mean temperature (degC)
-16. 5cm soil temperature (degC)
-17. 10cm soil temperature (degC)
-18. 20cm soil temperature (degC)
-19. 30cm soil temperature (degC)
-20. 50cm soil temperature (degC)
-21. 100cm soil temperature (degC)
-22. Cloud cover (oktas)
-23. Wind direction (deg/10)
-24. Wind speed (m/s)
-25. Max 3 sec gust (m/s)
-26. Rainfall (mm, over 24 hours from 9am)
-27. Total snow depth (cm)
-28. Fresh snow depth (cm)
-29. State of ground (code here: http://www.met.reading.ac.uk/~sws09a/var_codes.html#sog%20code)
-30. State of ground (code here: http://www.met.reading.ac.uk/~sws09a/var_codes.html#sogs%20code)
-31. Sunshine duration (hours)
+0. Year
+1. Month
+2. Day
+3. Day of the week
+4. Barometer temperature (degC)
+5. Weather station pressure (mb)
+6. Mean sea level pressure (mb)
+7. Dry bulb temperature (degC at 9am)
+8. Wet bulb temperature (degC at 9am)
+9. Dew point temperature (degC at 9am)
+10. Relative humidity (% at 9am)
+11. Maximum temperature (degC)
+12. Minimun temperature (degC)
+13. Soil minimum temperature (degC)
+14. Daily mean temperature (degC)
+15. 5cm soil temperature (degC)
+16. 10cm soil temperature (degC)
+17. 20cm soil temperature (degC)
+18. 30cm soil temperature (degC)
+19. 50cm soil temperature (degC)
+20. 100cm soil temperature (degC)
+21. Cloud cover (oktas)
+22. Wind direction (deg/10)
+23. Wind speed (m/s)
+24. Max 3 sec gust (m/s)
+25. Rainfall (mm, over 24 hours from 9am)
+26. Total snow depth (cm)
+27. Fresh snow depth (cm)
+28. State of ground (code here: http://www.met.reading.ac.uk/~sws09a/var_codes.html#sog%20code)
+29. State of ground (code here: http://www.met.reading.ac.uk/~sws09a/var_codes.html#sogs%20code)
+30. Sunshine duration (hours)
 
 Missing data is represented with an 'x'. There are more data variables available here if you would like to investigate something different: https://metdata.reading.ac.uk/cgi-bin/climate_extract.cgi. Simply choose your dates and variables desired. 
 
