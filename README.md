@@ -10,7 +10,7 @@ A description of each dataset and some questions you may wish to explore are det
 The dataset `data/ProcessedAGU.csv` was compiled by Milan Kloewer as part of an investigation into the Carbon footprint of the American Geophysical Union's annual meeting in San Francisco. I'd encourage you to come into the hackathon blind to his findings, however, if you later want to compare the conclusions you come to with Milan's you can find his analysis at https://github.com/milankl/CarbonFootprintAGU.
 
 ### The challenge
-To get started we have provided a few initial questions below. It's up to you to then make an interesting (and hopefully beautiful!) plot over the next 40 minutes. 
+To get started we have provided a few initial questions below. It's up to you to then make an interesting (and hopefully beautiful!) plot over the next 40 minutes. You are also, of course, welcome to explore other ideas.
 
 1. Where are AGU attendees coming from?
 2. Which nations/cities are responsible for the most emissions?
@@ -84,4 +84,4 @@ If using python your 'default' library is probably `matplotlib`. Other libraries
 If you'd rather use something with more of a GUI, you should be able to open the CSV datasets in Excel. If you haven't come across it before, Tableau is another fun piece of software often used in data science. It's available for free to students, although you'll probably want to install it before the seminar!
 
 ## Acknowledgements
-Many thanks to Milan Kloewer for allowing us to use the AGU dataset from his https://github.com/milankl/CarbonFootprintAGU repository.
+Many thanks to Milan Kloewer for allowing us to use the AGU dataset from his https://github.com/milankl/CarbonFootprintAGU repository. The Reading dataset was compiled and published by the University of Reading's meteorological observatory. It is presented here for educational purposes.
