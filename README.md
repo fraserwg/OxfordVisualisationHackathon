@@ -27,7 +27,7 @@ The dataset is a CSV with each row corresponding to data from some city. The col
 5. Longitude
 6. Distance to San Fransisco
 
-The file `src/LoadAGU.py` demonstrates how to load the dataset into python using `pandas` and the inbuilt `csv` module.
+The file `src/LoadAGU.py` demonstrates how to load the dataset into python using `pandas` and the inbuilt `csv` module. If you want to investigate the emissions from AGU attendees, then please find Milan's script for his method here: https://github.com/milankl/CarbonFootprintAGU/blob/master/scripts/calculate_emissions.py
 
 ## The Reading dataset
 The dataset data/reading_data.csv contains historical weather data, downloaded from the Reading University meteorological weather station (found here: https://metdata.reading.ac.uk/cgi-bin/climate_extract.cgi). 
